@@ -39,6 +39,14 @@ p, li, a{
     color: #404040;
 }
 
+p.destaque{
+    font-size: 130%;
+    line-height: 1.8;
+    font-weight: 300;
+    text-align: center;
+    width: 60%;
+}
+
 header div.chamada h1{
     color: #fff;
     text-shadow: 4px 6px 10px #000;
