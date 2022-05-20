@@ -211,7 +211,7 @@ div.pizza-opcoes {
     margin: 5px 0;
 }
 
-.testemunha{
+section.testemunha{
     width: 100%;
     background-image: linear-gradient(rgba(255,255,255,1), rgba(255,255,255,0.8), rgba(255,255,255,1)), url(../img/secao11-background-secao-depoimento.png);
     display: flex;
@@ -224,6 +224,11 @@ div.pizza-opcoes {
 .testemunha-mestre{
     width: 100%;
     height: 300px;
+    margin-top: 90px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
 }
 
 div.testemunha-esquerda, div.testemunha-direita{
@@ -245,10 +250,10 @@ div.testemunha-esquerda, div.testemunha-direita{
 .testemunha-centro{
     width: 70%;
     margin: 0 auto;
-    height: 300px;
+    height: 400px;
     position: relative;
     max-width: 1010px;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 div.testemunhos{
@@ -264,6 +269,7 @@ section.testemunha div.testemunha-centro div.testemunhos ul {
     padding: 30px;
     border: 1px solid #ccc;
     text-align: center;
+    border-radius: 5px;
 }
 
 section.testemunha div.testemunha-centro div.testemunhos ul li{
@@ -286,7 +292,90 @@ section.testemunha div.testemunha-centro div.testemunhos ul p{
 section.testemunha div.testemunha-centro div.testemunhos ul img{
     width: 40%;
     border-radius: 100%;
-    margin: -80;
+    margin-top: -80px;
     margin-bottom: 20px;
     border: 5px solid #f03733;
 }
+
+.transicao-testemunha-plano{
+    width: 100%;
+    height: 280px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.transicao-testemunha-plano .decoracao1{
+    width: 30%;
+    height: 100%;
+    background-image: url(/img/secao13-tomate-manjericao-alho.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.transicao-testemunha-plano .decoracao2{
+    width: 30%;
+    height: 100%;
+    background-image: url(/img/secao13-azeite.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.transicao-testemunha-plano .decoracao3{
+    width: 30%;
+    height: 100%;
+    background-image: url(/img/secao13-detalhe-tomate.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    
+}
+
+.plano-principal{
+    width: 100%;
+    height: 800px;
+}
+
+.planos-janela{
+    width: 80%;
+    margin: 30px auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.planos{
+    width: 250px;
+    height: 450px;
+    margin: 80px 30px;
+}
+
+.planos-top{
+    width: 100%;
+    height: 350px;
+    background-color: #f7f7f7;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    text-align: center;
+    box-shadow: 2px 2px 3px #ccc;
+}
+
+.planos-bottom{
+    width: 100%;
+    height: 100px;
+    background-color: #07BC31;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 2px 2px 3px #ccc;
+    cursor: pointer;
+}
+
+.plano-principal ul li{
+    font-size: 85%;
+    text-align: left;
+    margin-left: 30px;
+    line-height: 2;
+    text-decoration: none;
+}
+
+
+
