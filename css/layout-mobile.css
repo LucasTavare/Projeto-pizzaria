@@ -1,0 +1,22 @@
+.chamada h1{
+    font-size: 350%;
+}
+
+.chamada h4{
+    font-size: 150%;
+}
+
+.chamada a{
+    border-radius: 0;
+}
+
+h2{
+    font-size: 250%;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: left;
+}
