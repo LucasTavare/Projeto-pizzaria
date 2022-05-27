@@ -61,6 +61,10 @@ header div#chamada h1 {
     /* deslocamento-x | deslocamento-y
      | raio-de-desfoque | cor */
     text-shadow: 4px 6px 10px #000;  
+    animation-name:  headerH1-moverDireita;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+
 }
 
 header div#chamada h4 {
